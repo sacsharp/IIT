@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gfc.iit.QuizActivity">
+        <WebView
+            android:id="@+id/web_view_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"></WebView>
+
+            <WebView
+                android:id="@+id/web_view_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"></WebView>
+            <WebView
+                android:id="@+id/web_view_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"></WebView>
+            <WebView
+                android:id="@+id/web_view_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"></WebView>
+            <WebView
+                android:id="@+id/web_view_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"></WebView>
+
+    <Button
+        android:id="@+id/btn_next_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+
+</LinearLayout>

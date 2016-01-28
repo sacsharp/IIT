@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">IIT</string>
+
+    <string-array name="menu_items">
+        <item>HOME</item>
+        <item>PROFILE</item>
+        <item>SUBJECTS</item>
+        <item>MOCK TESTS</item>
+        <item>LEARN</item>
+        <item>EXAMS</item>
+        <item>TELL OTHERS</item>
+    </string-array>
+
+    <string-array name="classes_array">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>English</item>
+        <item>General Knowledge</item>
+        <item>Aptitude</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_learn">Learn</string>
+
+</resources>
